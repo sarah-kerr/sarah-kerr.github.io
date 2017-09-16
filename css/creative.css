@@ -20,12 +20,20 @@ hr.light {
   border-color: white; }
 
 a {
-  color: #4ABDAC;
-  -webkit-transition: all 0.2s;
-  -moz-transition: all 0.2s;
-  transition: all 0.2s; }
-  a:focus, a:hover {
-    color: #4ABDAC; }
+    color: #4ABDAC;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    transition: all 0.2s; }
+    a:focus, a:hover {
+      color: #4ABDAC; }
+
+a.white-link {
+	color: #FFFFFF;
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	transition: all 0.2s; }
+	a:focus, a:hover {
+	color: #FFFFFF; }
 
 h1,
 h2,
